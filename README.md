@@ -1,47 +1,36 @@
 # Netflix Content Analytics
 
-Analyzing Netflix content data (movies and series) using Python for cleaning and Power BI to create an interactive dashboard.
+Analysis of Netflix movies and TV shows using Python for data cleaning and Power BI for an interactive dashboard.
 
 ## About the Project
 
-This project aims to understand the nature of Netflix content by analyzing approximately 8.8K titles (movies and series) to answer the following questions:
+This project explores the Netflix content library (about 8.8K titles) to answer:
 
-- Is Netflix primarily a film or series company?
-
+- Is Netflix mainly a movie or a TV show platform?
 - How has its content grown over the years?
+- Which countries and genres are the most common?
 
-- Which countries and genres are most popular?
+## Tools Used
 
- ## Tools Used
-
-- Python (Pandas) — For cleaning and processing data
-
-- Power BI — For creating the interactive dashword and visualization
+- Python (Pandas): data cleaning and processing
+- Power BI: interactive dashboard and visualizations
 
 ## Key Findings
 
-- 69.7% of content is film versus 30.3% is TV series
-
-- Leading by a significant margin (3,700 titles) and (1,000)
-
-- Content growth is evident after 2015
-
-- Cigarettes (the vast majority) have only one season
-
-- International films and dramas are the most viewed genres
+- **69.7%** of titles are movies and **30.3%** are TV shows.
+- The United States leads content production with about **3,700** titles, followed by India with about **1,000**.
+- Content volume grows noticeably after 2015.
+- Most TV shows have only one season.
+- International Movies and Dramas are the most common genres.
 
 ## Project Contents
 
-- `Netflix_analogy.py` — Python data cleaning script
+- `Netflix_analysis.py`: Python data cleaning script
+- `Netflix.pbix`: Power BI dashboard file
+- `netflix_before_cleaning.csv`: raw and cleaned data
 
-- `Netflix.pbix` — Power BI dashword file
+## How to Run
 
-- `netflix_before_Cleaning` — Data used (raw and cleaned)
-
-## How to Run the Project
-
-1. Clone the repo
-
-2. Run  Clear the data in `Netflix_analysis.py`
-
-3. Log in to "Netflix.pbix" in Power BI Desktop
+1. Clone the repository.
+2. Run `Netflix_analysis.py` to clean the data.
+3. Open `Netflix.pbix` in Power BI Desktop.
